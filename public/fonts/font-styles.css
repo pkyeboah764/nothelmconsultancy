@@ -1,0 +1,40 @@
+/* IVY MODE */
+
+/* Light weight */
+@font-face {
+	font-family: 'ivymode';
+	src: url('/fonts/ivymode/IvyMode-Light.woff') format('woff'),
+		url('/fonts/ivymode/IvyMode-Light.woff2') format('woff2'),
+		url('/fonts/ivymode/IvyMode-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+/* Regular weight */
+@font-face {
+	font-family: 'ivymode';
+	src: url('/fonts/ivymode/IvyMode-Regular.woff') format('woff'),
+		url('/fonts/ivymode/IvyMode-Regular.woff2') format('woff2'),
+		url('/fonts/ivymode/IvyMode-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* Semi-bold weight */
+@font-face {
+	font-family: 'ivymode';
+	src: url('/fonts/ivymode/IvyMode-SemiBold.woff') format('woff'),
+		url('/fonts/ivymode/IvyMode-SemiBold.woff2') format('woff2'),
+		url('/fonts/ivymode/IvyMode-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+/* Bold weight */
+@font-face {
+	font-family: 'ivymode';
+	src: url('/fonts/ivymode/IvyMode-Bold.woff') format('woff'),
+		url('/fonts/ivymode/IvyMode-Bold.woff2') format('woff2'),
+		url('/fonts/ivymode/IvyMode-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}

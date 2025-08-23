@@ -42,7 +42,7 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 // CORS configuration for production
 const corsOptions = {
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://nothelmconsultancy.com', 'https://www.nothelmconsultancy.com']
+    ? ['https://nothelmconsultancy.vercel.app','https://nothelmconsultancy.com', 'https://www.nothelmconsultancy.com']
     : ['http://localhost:3000', 'http://localhost:5173'],
   credentials: true,
   optionsSuccessStatus: 200
